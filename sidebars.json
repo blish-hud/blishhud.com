@@ -1,0 +1,71 @@
+{
+  "user-sidebar": {
+    "User Guide": [
+      "user",
+      "user/getting-started",
+      "user/installing-modules",
+      "user/faq",
+      "user/troubleshooting",
+      "user/launch-options"
+    ]
+  },
+  "dev-sidebar": {
+    "Developer Docs": [
+      "dev"
+    ],
+    "Modules": [
+      "modules/overview/getting-started",
+      "modules/overview/update-your-manifest",
+      "modules/overview/debugging",
+      "modules/overview/bhm",
+      "modules/overview/release"
+    ],
+    "Controls": [
+      "dev/controls/overview",
+
+      "dev/controls/detailsbutton",
+      "dev/controls/colorpicker",
+      "dev/controls/loadingspinner"
+    ],
+    "Getting Started": [],
+    "Guides": ["modules/guides/settings"],
+    "Advanced Guides": [],
+    "API Reference": []
+  },
+  "marker-sidebar": {
+    "Overview": [
+      "markers"
+    ],
+    "Marker & Trail Attributes": [
+      "markers/attributes/achievement",
+      "markers/attributes/alpha",
+      "markers/attributes/autotrigger",
+      "markers/attributes/color",
+      "markers/attributes/copy",
+      "markers/attributes/cull",
+      "markers/attributes/festival",
+      "markers/attributes/guid",
+      "markers/attributes/heightoffset",
+      "markers/attributes/iconfile",
+      "markers/attributes/info",
+      "markers/attributes/mapid",
+      "markers/attributes/maptype",
+      "markers/attributes/mount",
+      "markers/attributes/position",
+      "markers/attributes/profession",
+      "markers/attributes/race",
+      "markers/attributes/resetlength",
+      "markers/attributes/rotate",
+      "markers/attributes/specialization",
+      "markers/attributes/texture",
+      "markers/attributes/triggerrange"
+    ],
+    "Attribute Data Types": [
+      "markers/datatypes/bool",
+      "markers/datatypes/color",
+      "markers/datatypes/file",
+      "markers/datatypes/float",
+      "markers/datatypes/integer"
+    ]
+  }
+}

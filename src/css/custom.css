@@ -1,0 +1,79 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+
+/*
+  --ifm-color-primary: #2f3136;
+  --ifm-color-primary-dark: #2a2c31;
+  --ifm-color-primary-darker: #282a2e;
+  --ifm-color-primary-darkest: #212226;
+  --ifm-color-primary-light: #34363b;
+  --ifm-color-primary-lighter: #36383e;
+  --ifm-color-primary-lightest: #3d4046;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}*/
+
+.ui-hero {
+  display: block;
+  margin:auto;
+}
+
+.navbar__splitleft {
+  border-left:2px solid #FFFFFF33;
+}
+
+:root {
+  --ifm-color-primary: #303846;
+  --ifm-color-primary-dark: #2b323f;
+  --ifm-color-primary-darker: #29303c;
+  --ifm-color-primary-darkest: #222731;
+  --ifm-color-primary-light: #353e4d;
+  --ifm-color-primary-lighter: #374050;
+  --ifm-color-primary-lightest: #3e495b;
+}
+
+.container {
+  color: white;
+}
+
+a {
+  color: #0073c5;
+}
+
+a:hover {
+  color: #0073c5;
+  text-decoration: underline;
+}
+
+a.table-of-contents__link {
+  color: #0073c5;
+}
+
+a.table-of-contents__link--active {
+  color: white;
+  font-weight: bold;
+}
+
+a.menu__link--active {
+  color: white;
+}
+
+a.menu__link:hover, .navbar__item.navbar__link:hover {
+  color: white;
+}
+
+a.navbar__link--active {
+  color:white;
+}
