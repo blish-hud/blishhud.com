@@ -16,10 +16,10 @@ hide_table_of_contents: true
 |-|-|-|-|
 | triggerrange | [float](../datatypes/float) | `triggerrange="3.2"` | The radius from the marker in which the triggerrange is active. |
 
-## Used By
+## Used by
 - [Copy](copy)
-- [Bounce]
+- [Bounce](bounce)
 - [Behavior]
-- [Toggle]
-- [Show/Hide]
-- [Info]
+- [Toggle](toggle)
+- [Show/Hide](showhide)
+- [Info](info)
