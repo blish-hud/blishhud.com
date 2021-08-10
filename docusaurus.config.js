@@ -61,7 +61,7 @@ module.exports = {
     announcementBar: {
       id: 'wip', // Any value that will identify this message.
       content:
-        'Our documentation is still a work in progress.  Checkout our <a target="_blank" href="https://discord.gg/FYKN3qh">Discord channel</a> for the latest.',
+        'Our documentation is still a work in progress.  Checkout our <a target="_blank" href="https://discord.gg/FYKN3qh">Discord channel</a> for the latest (including prerelease builds 🏃‍♂️).',
       backgroundColor: '#fafbfc', // Defaults to `#fff`.
       textColor: '#091E42', // Defaults to `#000`.
       isCloseable: false, // Defaults to `true`.
