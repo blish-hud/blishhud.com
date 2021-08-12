@@ -28,11 +28,11 @@ var exampleImage = new Image(Texture2D Icon)
 
 **Size**
 Type: *Point*
-Size of the TextBox *(optional)*
+Size of the image *(optional)*
 
 **Location**
 Type: *Point*
-Position of the TextBox within parent Panel
+Position of the image within parent Panel
 
 **Parent**
 Type: *Panel*
