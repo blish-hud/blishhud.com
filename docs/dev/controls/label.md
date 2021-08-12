@@ -31,7 +31,7 @@ var exampleLabel = new Label()
 
 **Size**
 Type: *Point*
-Size of the label *(optional)*
+Size of the control *(optional)*
 
 **Location**
 Type: *Point*
@@ -43,7 +43,7 @@ Parent Panel
 
 **Text**
 Type: *String*
-The text this label will show
+The text this control will show
 
 **Font**
 Type: *BitmapFont*
@@ -55,7 +55,7 @@ Color of the font *(optional)*
 
 **WrapText**
 Type: *Bool*
-Should text be wrapped when reaching the end of the label *(optional)*
+Should text be wrapped when reaching the end of the control *(optional)*
 
 **ShowShadow**
 Type: *Bool*

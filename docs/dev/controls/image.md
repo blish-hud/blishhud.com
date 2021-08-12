@@ -28,11 +28,11 @@ var exampleImage = new Image(Texture2D Icon)
 
 **Size**
 Type: *Point*
-Size of the image *(optional)*
+Size of the control *(optional)*
 
 **Location**
 Type: *Point*
-Position of the image within parent Panel
+Position of the control within parent Panel
 
 **Parent**
 Type: *Panel*
@@ -40,7 +40,7 @@ Parent Panel
 
 **Tint**
 Type: *Color*
-Tint the image *(optional)*
+Tint the control *(optional)*
 
 **BasicTooltipText**
 Type: *String*

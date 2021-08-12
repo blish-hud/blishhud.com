@@ -32,11 +32,11 @@ var exampleTextBox = new TextBox()
 
 **Size**
 Type: *Point*
-Size of the textbox *(optional)*
+Size of the control *(optional)*
 
 **Location**
 Type: *Point*
-Position of the textbox within parent panel
+Position of the control within parent panel
 
 **Parent**
 Type: *Panel*
@@ -44,11 +44,11 @@ Parent Panel
 
 **Text**
 Type: *String*
-The text this textbox will show by default *(optional)*
+The text this control will show by default *(optional)*
 
 **PlaceholderText**
 Type: *String*
-A placeholder text when textbox is empty *(optional)*
+A placeholder text when control is empty *(optional)*
 
 **Font**
 Type: *BitmapFont*
@@ -60,7 +60,7 @@ Color of the font *(optional)*
 
 **Focused**
 Type: *Bool*
-If the textbox should be focused by default *(optional)*
+If the control should be focused by default *(optional)*
 
 **SelectionStart**
 Type: *Int*
@@ -84,7 +84,7 @@ A list of `Methods` and `EventHandlers` to hook onto.
 Call a method when the user typed text.
 
 **InputFocusChanged**
-Call a method when the user changes focus to the textbox.
+Call a method when the user changes focus to the control.
 
 **CursorIndexChanged**
 Call a method when the user changes the position of the cursor.

@@ -32,19 +32,19 @@ var examplePanel = new Panel()
 
 **Size**
 Type: *Point*
-Size of the panel *(optional)*
+Size of the control *(optional)*
 
 **Location**
 Type: *Point*
-Position of the panel within parent panel
+Position of the control within parent control
 
 **Parent**
 Type: *Panel*
-Parent panel
+Parent control
 
 **Title**
 Type: *String*
-The text this panel will show on the title bar by default *(optional)*
+The text this control will show on the title bar by default *(optional)*
 
 **ShowBorder**
 Type: *Bool*

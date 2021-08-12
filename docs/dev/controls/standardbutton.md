@@ -31,11 +31,11 @@ var exampleButton = new StandardButton()
 
 **Size**
 Type: *Point*
-Size of the button *(optional)*
+Size of the control *(optional)*
 
 **Location**
 Type: *Point*
-Position of the button within parent Panel
+Position of the control within parent Panel
 
 **Parent**
 Type: *Panel*
@@ -43,11 +43,11 @@ Parent panel
 
 **Text**
 Type: *String*
-The text shown on the button.
+The text shown on the control.
 
 **Icon**
 Type: *Texture2D*
-An icon to show on the StandardButton.  For best results, the Icon should be 16x16.  *(optional)*
+An icon to show on the control. For best results, the Icon should be 16x16.  *(optional)*
 
 ---
 
