@@ -22,3 +22,9 @@ hide_table_of_contents: true
 XML's escaped newline `&#xA;` is supported and will allow you to show messages which intentionally span multiple lines in the info.
 
 :::
+
+## Affected by
+
+| Attribute | How |
+|-|-|
+| [TriggerRange](triggerrange) | `inforange` acts as an alias for `triggerrange` in Blish HUD's Pathing module. |

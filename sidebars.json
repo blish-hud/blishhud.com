@@ -39,7 +39,10 @@
     "Marker & Trail Attributes": [
       "markers/attributes/achievement",
       "markers/attributes/alpha",
+      "markers/attributes/animspeed",
       "markers/attributes/autotrigger",
+      "markers/attributes/bounce",
+      "markers/attributes/canfade",
       "markers/attributes/color",
       "markers/attributes/copy",
       "markers/attributes/cull",
@@ -56,9 +59,12 @@
       "markers/attributes/race",
       "markers/attributes/resetlength",
       "markers/attributes/rotate",
+      "markers/attributes/showhide",
       "markers/attributes/specialization",
       "markers/attributes/texture",
-      "markers/attributes/triggerrange"
+      "markers/attributes/toggle",
+      "markers/attributes/triggerrange",
+      "markers/attributes/visibility"
     ],
     "Attribute Data Types": [
       "markers/datatypes/bool",

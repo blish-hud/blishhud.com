@@ -39,7 +39,13 @@ Often the harder to find, the `achievementbit` will represent the index of the a
 
 If an achievement requires you to find 4 items, typically each of those 4 items will receive a bit to indicate it's individual status.
 
-The bits are 0 indexed meaning that they count from 0 onwards so if there are 4 bits in an achievement, they will range from 0 to 3.  The wiki and the bit descriptions themselves will often indicate their bit value + 1.  For example "*Ancient Grothmar Coin #6*" which is bit 5 on achievement 4949.
+The bits are 0 indexed meaning that they count from 0 onwards so if there are 4 bits in an achievement, they will range from 0 to 3.
+
+:::warning
+
+Do not trust the order of the Wiki or the in-game achievement UI.  This order does not necessarily represent the order provided by the API.
+
+:::
 
 `achievementbit` is not required and when not specified, the marker or trail will be toggled based exclusively on the status of the parent achievement, itself.
 
@@ -49,6 +55,13 @@ A great way to find achievement IDs and other details is via [gw2treasures.com's
 
 :::
 
+## Affected by
+
+| Attribute | How |
+|-|-|
+| [AutoTrigger](autotrigger) | If enabled, the marker will be hidden for the remainder of the session automatically if the user enters the [TriggerRange](triggerrange).  Enable for achievements which require you to enter an area without needing to directly interact. |
+| [TriggerRange](triggerrange) | Determines the range necessary to trigger hiding the marker with the action key (or automatically if autotrigger is enabled). |
+
 ## How it works
 
 Every 2.5 minutes, a list of the current users achievements are pulled from the API.
@@ -57,4 +70,4 @@ Every 2.5 minutes, a list of the current users achievements are pulled from the 
 2. If the achievement itself indicates that it is complete, we hide all markers with the associated `achievementid`.
 3. If the achievement itself indicates that it is not complete, but indicates that a bit has been completed, we hide all markers with the associated `achievementbit`.
 
-When a user interacts (usually the F key) with a marker that has an achievementid, we automatically hide it for that session since the Web API has a cache which prevents it from being perfectly up to date.
+When a user interacts (usually the F key) with a marker that has an achievementid, we automatically hide it for that session since the Web API has a cache which prevents it from being updated in realtime.

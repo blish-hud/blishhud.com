@@ -15,3 +15,11 @@ hide_table_of_contents: true
 | Attribute | Data Type | Example | Description |
 |-|-|-|-|
 | autotrigger | [bool](../datatypes/bool) | `autotrigger="1"` | 1 to indicate that all applicable behaviors / attributes on the marker should auto trigger once the character is in range. Default is 0. |
+
+## Used by
+- [Copy](copy)
+- [Bounce](bounce)
+- [Behavior]
+- [Toggle](toggle)
+- [Show/Hide](showhide)
+- [Info](info)
