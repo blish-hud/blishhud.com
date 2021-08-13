@@ -64,7 +64,7 @@ A great way to find achievement IDs and other details is via [gw2treasures.com's
 
 ## How it works
 
-Every 2.5 minutes, a list of the current users achievements are pulled from the API.
+Every 5 minutes, a list of the current users achievements are pulled from the API.
 
 1. If we don't see the indicated achievement in the list we do nothing.
 2. If the achievement itself indicates that it is complete, we hide all markers with the associated `achievementid`.
