@@ -23,9 +23,14 @@
     "Controls": [
       "dev/controls/overview",
 
-      "dev/controls/detailsbutton",
       "dev/controls/colorpicker",
-      "dev/controls/loadingspinner"
+      "dev/controls/detailsbutton",
+      "dev/controls/control-image",
+      "dev/controls/control-label",
+      "dev/controls/loadingspinner",
+      "dev/controls/control-panel",
+      "dev/controls/control-standardbutton",
+      "dev/controls/control-textbox"
     ],
     "Getting Started": [],
     "Guides": ["modules/guides/settings"],
