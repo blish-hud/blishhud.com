@@ -4,9 +4,9 @@ title: Color
 hide_table_of_contents: true
 ---
 
-| Markers | Trails | | Blish HUD | TacO |
-|-|-|-|-|-|
-| <center>✔</center> | <center>✔</center> | | <center>✔</center> | <center>⚠ Limited</center> |
+| Applies To | | Blish HUD | TacO |
+|-|-|-|-|
+| <center>Markers, Trails</center> | | <center>✔</center> | <center>⚠ Limited</center> |
 
 Only `color` is compatible with TacO and Blish HUD.  The `tint` attribute is only available in Blish HUD.  Blish HUD supports parsing far more color formats in both `color` and `tint` when compared to TacO.  See [color](../datatypes/color) for more details.
 
