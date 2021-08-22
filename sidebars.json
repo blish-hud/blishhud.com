@@ -69,6 +69,7 @@
       "markers/attributes/showhide",
       "markers/attributes/specialization",
       "markers/attributes/texture",
+      "markers/attributes/tip",
       "markers/attributes/toggle",
       "markers/attributes/triggerrange",
       "markers/attributes/visibility"
