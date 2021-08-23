@@ -18,10 +18,10 @@ Caveats for the feature, important details, etc. can be written here.  If there 
 
 *A brief description of the attribute.*
 
-| Attribute | Data Type | Example | Description |
-|-|-|-|-|
-| achievementid | [integer](../datatypes/integer) | `achievementid="4949"` | The achievement this marker or trail will hide for when completed. |
-| achievementbit | [integer](../datatypes/integer) | `achievementid="3"` | The id of the sub item within an achievement this marker or trail will hide for when completed. |
+| Attribute | Data Type | Example | Default Value | Description |
+|-|-|-|-|-|
+| fadenear | [float](../datatypes/float) | `fadenear="600"` | 700 | The distance from the marker or trail segment when it should begin to fade. |
+| fadefar | [float](../datatypes/float) | `fadefar="605"` | 900 | The distance from the marker or trail segment when it should not longer be visible. |
 
 ## Supported values
 
