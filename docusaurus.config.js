@@ -11,7 +11,7 @@ module.exports = {
     navbar: {
       title: 'Blish HUD',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Blish HUD',
         src: 'img/logo.png',
       },
       items: [

@@ -23,9 +23,14 @@
     "Controls": [
       "dev/controls/overview",
 
-      "dev/controls/detailsbutton",
       "dev/controls/colorpicker",
-      "dev/controls/loadingspinner"
+      "dev/controls/detailsbutton",
+      "dev/controls/control-image",
+      "dev/controls/control-label",
+      "dev/controls/loadingspinner",
+      "dev/controls/control-panel",
+      "dev/controls/control-standardbutton",
+      "dev/controls/control-textbox"
     ],
     "Getting Started": [],
     "Guides": ["modules/guides/settings"],
@@ -36,7 +41,7 @@
     "Overview": [
       "markers"
     ],
-    "Marker & Trail Attributes": [
+    "Attributes": [
       "markers/attributes/achievement",
       "markers/attributes/alpha",
       "markers/attributes/animspeed",
@@ -46,11 +51,13 @@
       "markers/attributes/color",
       "markers/attributes/copy",
       "markers/attributes/cull",
+      "markers/attributes/displayname",
       "markers/attributes/festival",
       "markers/attributes/guid",
       "markers/attributes/heightoffset",
       "markers/attributes/iconfile",
       "markers/attributes/info",
+      "markers/attributes/isseparator",
       "markers/attributes/mapid",
       "markers/attributes/maptype",
       "markers/attributes/mount",
@@ -62,6 +69,7 @@
       "markers/attributes/showhide",
       "markers/attributes/specialization",
       "markers/attributes/texture",
+      "markers/attributes/tip",
       "markers/attributes/toggle",
       "markers/attributes/triggerrange",
       "markers/attributes/visibility"

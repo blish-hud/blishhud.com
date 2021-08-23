@@ -118,19 +118,19 @@ function Home() {
             <div className="container">
               <div className="row">
                 <div className={clsx('col col--6', styles.features)}>
-                    <h1>Events and Metas Observer</h1>
-                    <p>Displays upcoming events and metas.  Gives you the option to subscribe to in-game notifications to indicate when it's going to start soon.</p>
+                    <h1>Pathing Module</h1>
+                    <p>Use TacO marker packs with extra features.</p>
                 </div>
-                <div class={clsx('col col--6')}>
+                <div class={clsx('col col--6', styles.moduleHero)}>
                     <img src="/img/events-hero-half.png" />
                 </div>
               </div>
             </div>
         </section>
-        <section className={styles.moduleShowcase}>
+        <section className="moduleShowcase">
             <div className="container">
               <div className="row">
-                <div class={clsx('col col--6')}>
+                <div class={clsx('col col--6', styles.moduleHero)}>
                     <img src="/img/events-hero-half.png" />
                 </div>
                 <div className={clsx('col col--6', styles.features)}>
@@ -144,11 +144,11 @@ function Home() {
             <div className="container">
               <div className="row">
                 <div className={clsx('col col--6', styles.features)}>
-                    <h1>Events and Metas Observer</h1>
+                    <h1>Landmark Search</h1>
                     <p>Displays upcoming events and metas.  Gives you the option to subscribe to in-game notifications to indicate when it's going to start soon.</p>
                 </div>
-                <div class={clsx('col col--6')}>
-                    <img src="/img/events-hero-half.png" />
+                <div class={clsx('col col--6', styles.moduleHero)}>
+                    <img src="/img/showcase/universalsearch.png" />
                 </div>
               </div>
             </div>

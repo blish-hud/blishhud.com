@@ -4,9 +4,9 @@ title: Texture
 hide_table_of_contents: true
 ---
 
-| Markers | Trails | | Blish HUD | TacO |
-|-|-|-|-|-|
-| <center>N/A</center> | <center>✔</center> | | <center>✔</center> | <center>✔</center> |
+| Applies To | | Blish HUD | TacO |
+|-|-|-|-|
+| <center>Trails</center> | | <center>✔</center> | <center>✔</center> |
 
 ## Description
 

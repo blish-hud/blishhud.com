@@ -44,6 +44,10 @@
   background-color: #34363b;
 }
 
-.moduleShowcase {
-  
+.moduleHero {
+  text-align: center;
+}
+
+.moduleHero > img {
+  vertical-align: bottom;
 }

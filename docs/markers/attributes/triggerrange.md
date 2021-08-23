@@ -4,9 +4,9 @@ title: TriggerRange
 hide_table_of_contents: true
 ---
 
-| Markers | Trails | | Blish HUD | TacO |
-|-|-|-|-|-|
-| <center>✔</center> | <center>N/A</center> | | <center>✔</center> | <center>✔</center> |
+| Applies To | | Blish HUD | TacO |
+|-|-|-|-|
+| <center>Markers</center> | | <center>✔</center> | <center>✔</center> |
 
 ## Description
 

@@ -4,9 +4,9 @@ title: Achievement
 hide_table_of_contents: true
 ---
 
-| Markers | Trails | | Blish HUD | TacO |
-|-|-|-|-|-|
-| <center>✔</center> | <center>✔</center> | | <center>✔</center> | <center>✔</center> |
+| Applies To | | Blish HUD | TacO |
+|-|-|-|-|
+| <center>Markers, Trails</center> | | <center>✔</center> | <center>✔</center> |
 
 :::info
 
@@ -64,7 +64,7 @@ A great way to find achievement IDs and other details is via [gw2treasures.com's
 
 ## How it works
 
-Every 2.5 minutes, a list of the current users achievements are pulled from the API.
+Every 5 minutes, a list of the current users achievements are pulled from the API.
 
 1. If we don't see the indicated achievement in the list we do nothing.
 2. If the achievement itself indicates that it is complete, we hide all markers with the associated `achievementid`.
