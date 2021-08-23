@@ -78,7 +78,36 @@ Set the background color of the control.
 
 A list of `Methods` and `EventHandlers` to hook onto.
 
-*This documentation is a WIP and probably not exhaustive.*
+### EventHandler
+
+**Click**
+Alias for `LeftMouseButtonReleased` with the difference that it only fires if `Enabled` is true.
+
+**LeftMouseButtonPressed**
+
+**LeftMouseButtonReleased**
+
+**MouseMoved**
+
+**RightMouseButtonPressed**
+
+**RightMouseButtonReleased**
+
+**MouseWheelScrolled**
+
+**MouseEntered**
+
+**MouseLeft**
+
+**Shown**
+
+**Hidden**
+
+**Resized**
+
+**Moved**
+
+**Disposed**
 
 ---
 

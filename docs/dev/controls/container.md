@@ -45,6 +45,8 @@ then `AutoSizePadding` is added to the size.
 
 A list of `Methods` and `EventHandlers` to hook onto.
 
+### Methods
+
 **AddChild**
 Adds a child to the control.
 
@@ -53,6 +55,14 @@ Removes a child from the control.
 
 **ClearChildren**
 Removes all children from the control.
+
+### EventHandler
+
+**ChildAdded**
+
+**ChildRemoved**
+
+**ContentResized**
 
 ---
 
