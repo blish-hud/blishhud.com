@@ -28,19 +28,14 @@ var examplePanel = new Panel()
 
 ---
 
+## Parent Controls
+
+- <a href="/docs/dev/controls/control-control">Control</a>
+- <a href="/docs/dev/controls/control-container">Container</a>
+
+---
+
 ## Available Parameters and Arguments
-
-**Size**
-Type: *Point*
-Size of the control *(optional)*
-
-**Location**
-Type: *Point*
-Position of the control within parent control
-
-**Parent**
-Type: *Panel*
-Parent control
 
 **Title**
 Type: *String*
@@ -50,14 +45,40 @@ The text this control will show on the title bar by default *(optional)*
 Type: *Bool*
 Toggle a visible border and title area *(optional)*
 
+**CanScroll**
+Type: *Bool*
+Enable a scrollbar if content is overflowing.
+
+**BackgroundTexture**
+Type: *AsyncTexture2D*
+Set a background texture.
+
+**ShowTint**
+Type: *Bool*
+Apply tint to the control.
+
+**CanCollapse**
+Type: *Bool*
+Make the control collapsible.
+
+**Collapsed**
+Type: *Bool*
+If `CanCollapse` is set, this will set the initial state of the control.
+
 ---
 
 ## Available Methods
 
 A list of `Methods` and `EventHandlers` to hook onto.
 
-**Click**
-Call a method when the user clicked on the button.
+**Expand**
+If `CanCollapse` is set, this will expand the control.
+
+**Collapse**
+If `CanCollapse` is set, this will collapse the control.
+
+**ToggleAccordionState**
+If `CanCollapse` is set, this will toggle between collapsed and expanded state.
 
 ---
 
