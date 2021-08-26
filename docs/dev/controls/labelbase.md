@@ -31,8 +31,6 @@ see parent controls
 
 A list of `Methods` and `EventHandlers` to hook onto.
 
-### Methods
-
 see parent controls
 
 ---

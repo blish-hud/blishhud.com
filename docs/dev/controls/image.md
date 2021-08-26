@@ -14,7 +14,7 @@ The `Image` control adds a image asset to your layout.
 This example shows how to use the `Image` control.
 
 ```cs
-var exampleImage = new Image(Texture2D Icon)
+var exampleImage = new Image(Texture2D Texture)
 {
       Size = new Point(40, 40),
       Location = new Point(0, 0),
@@ -24,27 +24,26 @@ var exampleImage = new Image(Texture2D Icon)
 
 ---
 
+## Parent Controls
+
+- <a href="/docs/dev/controls/control-control">Control</a>
+
+---
+
 ## Available Parameters and Arguments
 
-**Size**
-Type: *Point*
-Size of the control *(optional)*
+**Texture**
+Type: *AsyncTexture2D*
+Texture the control will show
 
-**Location**
-Type: *Point*
-Position of the control within parent Panel
-
-**Parent**
-Type: *Panel*
-Parent Panel
+**SpriteEffects**
+Type: *SpriteEffects*
+*(optional)*
 
 **Tint**
 Type: *Color*
-Tint the control *(optional)*
-
-**BasicTooltipText**
-Type: *String*
-Display a tooltip text on mouse hover *(optional)*
+Apply a tint the control
+*(optional)*
 
 ---
 
@@ -52,8 +51,7 @@ Display a tooltip text on mouse hover *(optional)*
 
 A list of `Methods` and `EventHandlers` to hook onto.
 
-**Click**
-Call a method when clicking.
+see parent controls
 
 ---
 
