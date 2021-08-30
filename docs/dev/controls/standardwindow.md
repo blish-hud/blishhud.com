@@ -3,7 +3,7 @@ id: standardwindow
 title: StandardWindow
 ---
 
-The `StandardWindow` is a control meant to replicate the standard Guild Wars 2 windows.
+The **StandardWindow** is a control meant to replicate the standard Guild Wars 2 windows.
 
 |Implements| |
 |-|-|
@@ -13,7 +13,7 @@ The `StandardWindow` is a control meant to replicate the standard Guild Wars 2 w
 
 Windows require a background and their size and content regions will be subsets of the background's bounds.
 
-When creating a new `StandardWindow`, you must provide:
+When creating a new **StandardWindow**, you must provide:
 
 |Parameter|Description|
 |-|-|
