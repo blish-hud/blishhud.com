@@ -19,7 +19,7 @@ When creating a new **StandardWindow**, you must provide:
 |-|-|
 |background|The texture to be used as the background of the window.|
 |windowRegion|The bounds which represent the "rigid" portion of the window - just inside of the softer outer border.|
-|contentRegion|The bounds within the space that should represent the `ContentRegion`.|
+|contentRegion|The bounds within the space that should represent the `ContentRegion`.  This is where the view / child controls will be displayed.|
 
 <img src="/img/docs/controls/window/rawBackgroundExample.png" />
 
