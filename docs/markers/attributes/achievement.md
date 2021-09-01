@@ -23,7 +23,7 @@ If the user does not provide an API key or the user has not consented to the `ac
 | Attribute | Data Type | Example | Description |
 |-|-|-|-|
 | achievementid | [integer](../datatypes/integer) | `achievementid="4949"` | The achievement this marker or trail will hide for when completed. |
-| achievementbit | [integer](../datatypes/integer) | `achievementid="3"` | The id of the sub item within an achievement this marker or trail will hide for when completed. |
+| achievementbit | [integer](../datatypes/integer) | `achievementbit="3"` | The id of the sub item within an achievement this marker or trail will hide for when completed. |
 
 ## Supported values
 

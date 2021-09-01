@@ -52,6 +52,7 @@
       "markers/attributes/copy",
       "markers/attributes/cull",
       "markers/attributes/displayname",
+      "markers/attributes/fade",
       "markers/attributes/festival",
       "markers/attributes/guid",
       "markers/attributes/heightoffset",
