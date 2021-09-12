@@ -3,7 +3,7 @@ id: debugging
 title: Debugging Your Module
 ---
 
-## Configuration Your Project
+## Configuring Your Project
 
 1. In your module's **Debug** settings, set the **Start action** to *Start external program* and specify the path of **Blish HUD.exe**.
 2. Under the same settings, set **Command line arguments** to `--debug --module "c:\project-path\bin\x64\Debug\<path-to-your-module-output.bhm"`
