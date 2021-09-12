@@ -1,5 +1,5 @@
 ---
-id: control-label
+id: label
 title: Label
 ---
 

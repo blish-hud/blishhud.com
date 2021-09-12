@@ -1,5 +1,5 @@
 ---
-id: control-image
+id: image
 title: Image
 ---
 

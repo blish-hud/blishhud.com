@@ -6,7 +6,8 @@
       "user/installing-modules",
       "user/faq",
       "user/troubleshooting",
-      "user/launch-options"
+      "user/launch-options",
+      "user/portable-mode"
     ]
   },
   "dev-sidebar": {
@@ -25,12 +26,14 @@
 
       "dev/controls/colorpicker",
       "dev/controls/detailsbutton",
-      "dev/controls/control-image",
-      "dev/controls/control-label",
+      "dev/controls/image",
+      "dev/controls/label",
       "dev/controls/loadingspinner",
-      "dev/controls/control-panel",
-      "dev/controls/control-standardbutton",
-      "dev/controls/control-textbox"
+      "dev/controls/panel",
+      "dev/controls/standardbutton",
+      "dev/controls/standardwindow",
+      "dev/controls/tabbedwindow2",
+      "dev/controls/textbox"
     ],
     "Getting Started": [],
     "Guides": ["modules/guides/settings"],

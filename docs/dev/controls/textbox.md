@@ -1,5 +1,5 @@
 ---
-id: control-textbox
+id: textbox
 title: Textbox
 ---
 

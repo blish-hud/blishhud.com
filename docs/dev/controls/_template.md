@@ -1,5 +1,5 @@
 ---
-id: control-template
+id: controltemplate
 title: ControlTemplate
 ---
 

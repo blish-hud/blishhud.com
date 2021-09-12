@@ -1,5 +1,5 @@
 ---
-id: control-panel
+id: panel
 title: Panel
 ---
 

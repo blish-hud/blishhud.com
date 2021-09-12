@@ -1,5 +1,5 @@
 ---
-id: control-standardbutton
+id: standardbutton
 title: StandardButton
 ---
 
