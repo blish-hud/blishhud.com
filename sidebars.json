@@ -42,7 +42,8 @@
   },
   "marker-sidebar": {
     "Overview": [
-      "markers"
+      "markers",
+      "markers/overview/packformats"
     ],
     "Attributes": [
       "markers/attributes/achievement",
