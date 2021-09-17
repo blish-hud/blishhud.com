@@ -20,7 +20,7 @@ Behavior IDs of 100 and above are Blish HUD specific and will do nothing in TacO
 
 | Attribute | Data Type | Example | Default Value | Description |
 |-|-|-|-|-|
-| behavior | [integer](../datatypes/int) | `behavior="3"` | 0 | The behavior ID to use. |
+| behavior | [integer](../datatypes/integer) | `behavior="3"` | 0 | The behavior ID to use. |
 
 ## Supported values
 
