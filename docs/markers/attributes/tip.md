@@ -6,7 +6,13 @@ hide_table_of_contents: true
 
 | Applies To | | Blish HUD | TacO |
 |-|-|-|-|
-| <center>Categories, Markers</center> | | <center>✔</center> | <center>❌</center> |
+| <center>Categories, Markers</center> | | <center>⚠</center> | <center>❌</center> |
+
+:::caution
+
+`tip-name` is implemented on the mini-map but not for categories.  `tip-description` has not been implemented in Blish HUD.
+
+:::
 
 ## Description
 
