@@ -19,7 +19,7 @@ hide_table_of_contents: true
 ## Used by
 - [Copy](copy)
 - [Bounce](bounce)
-- [Behavior]
+- [Behavior](behavior)
 - [Toggle](toggle)
 - [Show/Hide](showhide)
 - [Info](info)

@@ -7,9 +7,13 @@ hide_table_of_contents: true
 
 | Applies To | | Blish HUD | TacO |
 |-|-|-|-|
-| <center>Markers</center> | | <center>✔</center> | <center>⚠ Limited</center> |
+| <center>Markers</center> | | <center>✔</center> | <center>⚠</center> |
+
+:::info
 
 TacO only supports reset lengths as whole [integer](../datatypes/integer) values whereas Blish HUD supports subsecond granularity as we accept [float](../datatypes/float) values.
+
+:::
 
 ## Description
 
@@ -20,4 +24,4 @@ TacO only supports reset lengths as whole [integer](../datatypes/integer) values
 | resetlength | [float](../datatypes/float) | `resetlength="20.75"` | The number of seconds until the marker should reappear. |
 
 ## Used by
-- [behavior]
+- [behavior](behavior)

@@ -50,6 +50,7 @@
       "markers/attributes/alpha",
       "markers/attributes/animspeed",
       "markers/attributes/autotrigger",
+      "markers/attributes/behavior",
       "markers/attributes/bounce",
       "markers/attributes/canfade",
       "markers/attributes/color",
