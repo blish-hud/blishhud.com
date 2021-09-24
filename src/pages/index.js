@@ -118,7 +118,7 @@ function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}<br/><small><i>For DX11 beta support, grab the prerelease from our Discord channel!</i></small></p>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -126,7 +126,7 @@ function Home() {
                 styles.getStarted,
               )}
               to='https://latest.blishhud.com'>
-                Download
+                Download v0.11.0
             </Link>&nbsp;
             <Link
               className={clsx(

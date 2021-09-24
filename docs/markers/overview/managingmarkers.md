@@ -24,7 +24,7 @@ Tired of trying to guess what that random marker symbol is trying to represent i
 
 ## Enriched Achievement Support
 
-In marker packs that support [achievements](markers/attributes/achievement) (the most popular pack that supports achievements properly is ReActif), Blish HUD can show the achievement description and will also mark out which achievements you've completed.
+In marker packs that support [achievements](/docs/markers/attributes/achievement) (the most popular pack that supports achievements properly is ReActif), Blish HUD can show the achievement description and will also mark out which achievements you've completed.
 
 <img src="/img/pathing/overview/achievement-tooltip.png" />
 <br /><br />
