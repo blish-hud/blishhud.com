@@ -3,6 +3,9 @@ id: getting-started
 title: Getting Started
 ---
 
+## Video Guide
+A video guide which walks you through setting up Blish HUD for the first time: https://www.youtube.com/watch?v=iLYYumF2SCY
+
 ## Download & Install Blish HUD
 
 #### 1. Download Blish HUD from our release page on GitHub:
