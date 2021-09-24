@@ -41,8 +41,10 @@
     "API Reference": []
   },
   "marker-sidebar": {
-    "Overview": [
+    "Pathing Module": [
       "markers",
+      "markers/overview/managingmarkers",
+      "markers/overview/pathingtroubleshooting",
       "markers/overview/packformats"
     ],
     "Attributes": [
@@ -77,6 +79,7 @@
       "markers/attributes/texture",
       "markers/attributes/tip",
       "markers/attributes/toggle",
+      "markers/attributes/trailscale",
       "markers/attributes/triggerrange",
       "markers/attributes/visibility"
     ],

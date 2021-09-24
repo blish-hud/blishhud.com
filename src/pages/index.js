@@ -12,7 +12,7 @@ const moduleShowcase = [
     imageUrl: 'img/1615829.png',
     description: (
       <>
-        Marker and Paths module supports displaying TacO format .zip and .taco markers in-game.
+        The Pathing module supports displaying TacO format .zip and .taco markers in-game.
       </>
     ),
   },
@@ -87,7 +87,7 @@ const features = [
     imageUrl: 'img/1769865.png',
     description: (
       <>
-        Join our <a target="_blank" href="https://discord.gg/HzAV82d">Discord channel</a> (more than 2,000 users!), contribute to Blish HUD development, get help in developing your modules, and showcase your work to other Blish HUD users.
+        Join our <a target="_blank" href="https://discord.gg/HzAV82d">Discord channel</a> (more than 2,500 users!), contribute to Blish HUD development, get help in developing your modules, and showcase your work to other Blish HUD users.
       </>
     ),
   },
@@ -118,7 +118,7 @@ function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className="hero__subtitle">{siteConfig.tagline}<br/><small><i>For DX11 beta support, grab the prerelease from our Discord channel!</i></small></p>
           <div className={styles.buttons}>
             <Link
               className={clsx(

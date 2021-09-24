@@ -36,12 +36,18 @@ Restarting Blish HUD should remove the black background and allow it to be trans
 
 <img src="/img/troubleshooting/windows-1803.png" />
 
+#### Old Windows 10
+
 Please ensure you are not running Windows 10 Version 1803.  If you are, you likely need to update to a more recent version as there appear to be issues with overlays in this version.
 
 You can check your version of Windows 10:
 1. Press **Windows Key + R** to open the Run dialog.
 2. Type *winver* and press **Enter**.
 3. The resulting dialog will indicate the exact version of Windows you are using.
+
+#### Nvidia or Radeon post effects
+
+Check your AMD or Nvidia post processing effects configured to ensure that sharpening or other things are not applied to Blish HUD.  Having these post processing effects applied to Blish HUD can result in us rendering incorrectly.
 
 ### 3. Text and/or textures are blurry
 
