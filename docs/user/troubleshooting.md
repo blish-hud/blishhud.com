@@ -87,3 +87,16 @@ If you still have issues or a edge case, familiarize yourself with our [launch o
 If you are running Windows 7 this is an issue with the versions of TLS enabled on your system.  Consider reviewing this [Microsoft topic](https://support.microsoft.com/en-us/topic/update-to-enable-tls-1-1-and-tls-1-2-as-default-secure-protocols-in-winhttp-in-windows-c4bd73d2-31d7-761e-0178-11268bb10392) which goes into more details about the issue and potential solutions.
 
 If you are uncomfortable or unfamiliar with the topics discussed in the above Microsoft document, reach out to us on Discord and we can provide a custom version of Blish HUD.
+
+### 8. Settings are not saved
+
+You you find that your settings are not saving between maps (for the pathing module) or with relaunches of Blish HUD, it is likely that your anti-virus is preventing us from writing to our settings directory.
+
+You can check your Blish HUD logs for occurances of "Access Denied" errors to confirm this.  There is also a chance that no logs will exist if we have been blocked from writing to our logs directory.
+
+To resolve this issue:
+1. Ensure Blish HUD.exe is explicitly allowed by any anti-virus you have running (if you only have Windows Defender, we have not seen this block us before).
+2. Ensure our directory under your documents (`Documents\Guild Wars 2\addons\blishhud\`) is explicitly allowed in your anti-virus software.
+3. Right-click your Blish HUD.exe and go to properties.  Ensure at the bottom that the option "Unblock" is checked, if it is available (if this option is not available, you can skip it).
+
+If the above steps do not resolve the issue, you can try utilizing [portable mode](portable-mode).
