@@ -9,6 +9,8 @@ To provide marker pack support, Blish HUD can use the "Pathing" module.  The pat
 
 To install the Pathing module, find the **Pathing** module within the Module Repo and install it (see: [Installing modules](/docs/user/installing-modules)).
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/jz1afT6_wxU" frameborder="0" allow="fullscreen; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
 ## The permissions
 
 If you are using an API key with Blish HUD, you can optionally consent to each of the following API permissions:
