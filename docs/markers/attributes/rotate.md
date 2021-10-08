@@ -18,9 +18,3 @@ hide_table_of_contents: true
 | rotate-x | [float](../datatypes/float) | `rotate-x="90"` | Defines rotation on the x axis in degrees. |
 | rotate-y | [float](../datatypes/float) | `rotate-y="178"` | Defines rotation on the y axis in degrees. |
 | rotate-z | [float](../datatypes/float) | `rotate-z="-22.3"` | Defines rotation on the z axis in degrees. |
-
-:::caution Watch out!
-
-To enable a static rotation of a marker, at least one rotation value (x, y, or z) must be non-zero.  Even if defined, if all three values are zero then the attributes will be ignored.
-
-:::
