@@ -146,7 +146,7 @@ function Home() {
             </Link>
           </div>
           <br />
-          <iframe width="640" height="360" src="https://www.youtube.com/embed/iLYYumF2SCY" frameborder="0" allow="fullscreen; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/iLYYumF2SCY" frameBorder="0" allow="fullscreen; autoplay; encrypted-media; picture-in-picture" allowFullscreen></iframe>
         </div>
       </header>
       <main>
