@@ -1,6 +1,6 @@
 ---
 id: troubleshooting
-title: Troubleshooting
+title: Common Issues
 ---
 
 :::info Can't find your issue or still need help?

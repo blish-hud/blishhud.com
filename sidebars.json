@@ -5,9 +5,12 @@
       "user/getting-started",
       "user/installing-modules",
       "user/faq",
-      "user/troubleshooting",
       "user/launch-options",
       "user/portable-mode"
+    ],
+    "Troubleshooting": [
+      "user/troubleshooting",
+      "user/troubleshooting/recording"
     ]
   },
   "dev-sidebar": {
