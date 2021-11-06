@@ -51,6 +51,11 @@ module.exports = {
       style: 'dark',
       links: [],
       copyright: `Designed and built with all the love in Tyria by the Blish HUD team with help from many more!
+                  <br />
+                  <br />
+                  <a href="https://github.com/blish-hud/blish-hud/graphs/contributors">
+                    <img src="https://contrib.rocks/image?repo=blish-hud/blish-hud&max=12" />
+                  </a>
                   <hr />
                   <p>This site is not affiliated with ArenaNet, Guild Wars 2, or any of their partners. All copyrights reserved to their respective owners.</p>
                   <p>©2010-${new Date().getFullYear()} ArenaNet, LLC. All rights reserved. Guild Wars, Guild Wars 2, Heart of Thorns,
