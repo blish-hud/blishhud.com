@@ -16,7 +16,7 @@ Users have the option to disable animations within the module settings.  If disa
 
 ## Description
 
-*Allows a marker to "bounce" triggered.*
+*Allows a marker to "bounce" when triggered.*
 
 | Attribute | Data Type | Example | Description |
 |-|-|-|-|
