@@ -25,7 +25,7 @@ The name of the window Blish HUD should overlay. This parameter is used in conju
 
 ### -s, --settings <path\to\settings\dir\>
 
-_Default: `%userprofile%\Guild Wars 2\addons\blishhud`_
+_Default: `%userprofile%\Documents\Guild Wars 2\addons\blishhud`_
 
 The directory where Blish HUD should load and save settings and other persistent data from/to.
 

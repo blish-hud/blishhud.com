@@ -100,3 +100,9 @@ To resolve this issue:
 3. Right-click your Blish HUD.exe and go to properties.  Ensure at the bottom that the option "Unblock" is checked, if it is available (if this option is not available, you can skip it).
 
 If the above steps do not resolve the issue, you can try utilizing [portable mode](portable-mode).
+
+### 9. Immediate crash when Blish HUD is in the same directory as ArcDPS
+
+When using the DirectX 11 vesrion of ArcDPS (d3d11.dll), if it is in the same directory as Blish HUD, it will attempt to inject into Blish HUD.  ArcDPS expects to be injected into Guild Wars 2, so it will cause Blish HUD to crash almost immediately upon launch.
+
+To resolve this, please ensure that Blish HUD is placed in a different folder — not one where there is a d3d11.dll file in the same directory.
