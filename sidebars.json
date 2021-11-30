@@ -6,7 +6,8 @@
       "user/installing-modules",
       "user/faq",
       "user/launch-options",
-      "user/portable-mode"
+      "user/portable-mode",
+      "user/arcdps-integration"
     ],
     "Troubleshooting": [
       "user/troubleshooting",
