@@ -7,6 +7,16 @@ Launch options allow you to set lower level settings in the overlay at launch.  
 
 ## Parameters
 
+### -g, --startgw2 <1 or 2\>
+
+_Default: `0`_
+
+Allows you to launch Guild Wars 2 along with Blish HUD.
+
+- 0 does nothing
+- 1 will start Guild Wars 2
+- 2 will start Guild Wars 2 with the autologin flag
+
 ### -p, --process <Gw2-64\>
 
 _Default: `Gw2-64`_
