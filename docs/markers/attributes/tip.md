@@ -26,3 +26,5 @@ hide_table_of_contents: true
 ## Remarks
 
 If `tip-name` is not provided, the [displayname](displayname) of the parent category is used instead.
+
+If you would like no tooltip to be shown for a marker, set `tip-name=""`.  Note that this will also hide the distance indicator and any set `tip-description` will also be ignored.
