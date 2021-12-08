@@ -48,14 +48,13 @@ Behaviors activate when they are triggered.  Triggering a marker can be done by 
 | [AutoTrigger](autotrigger) | If enabled, the marker will trigger when the user enters within the [TriggerRange](triggerrange). |
 | [TriggerRange](triggerrange) | Determines the range necessary to trigger the marker with the action key. |
 | [ResetLength](resetlength) | For behavior 4, the time until the marker becomes visible again. |
+| [InvertBehavior](invertbehavior) | If enabled, the behavior filter is inverted so that the marker is only displayed after the behavior has triggered. |
 
 ## Keeping states
 
-Behavior states are tracked by [GUID](guid).  Between launches, this information is saved to disk.
+Behavior states are tracked by a [GUID](guid).  Between launches, this information is saved to disk.
 
 | Overlay | File |
 |-|-|
 | Blish HUD | Stored in `\Documents\Guild Wars 2\addons\blishhud\markers\data\states\timers.txt` as `guid,timestamp` pairs. |
 | TacO | Stored in `activationdata.xml` as XML |
-
-Blish HUD stores the state of each triggered GUID

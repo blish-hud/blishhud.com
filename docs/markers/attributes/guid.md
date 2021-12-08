@@ -25,6 +25,6 @@ Behaviors and other attributes which must track their state between launch sessi
 
 :::tip
 
-When a marker checks to see if it is filtered, by GUID, it checks a table of filtered GUIDs which means that you can intentionally use the same GUID more than once to tie the state of multiple markers together.
+When a marker checks to see if it is filtered, by GUID, it checks a table of filtered GUIDs which means that you can intentionally use the same GUID more than once to tie the state of multiple markers together.  This is an important use case for the [InvertBehavior](invertbehavior) attribute.
 
 :::

@@ -77,3 +77,10 @@ a.menu__link:hover, .navbar__item.navbar__link:hover {
 a.navbar__link--active {
   color:white;
 }
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(34, 37, 51);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
