@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 ## Description
 
-*Hides the marker if the current map is not one of the specified map types.*
+*Hides the marker or trail if the current map is not one of the specified map types.*
 
 | Attribute | Data Type | Example | Description |
 |-|-|-|-|

@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 ## Description
 
-*Hides the marker if the player is not currently riding one of the specified mounts.*
+*Hides the marker or trail if the player is not currently riding one of the specified mounts.*
 
 | Attribute | Data Type | Example | Description |
 |-|-|-|-|

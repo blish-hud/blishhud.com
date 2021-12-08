@@ -52,6 +52,7 @@
       "markers/overview/packformats"
     ],
     "Attributes": [
+      "markers/attributes/attributes",
       "markers/attributes/achievement",
       "markers/attributes/alpha",
       "markers/attributes/animspeed",

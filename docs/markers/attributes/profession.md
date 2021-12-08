@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 ## Description
 
-*Hides the marker if the player is not currently one of the specified professions.*
+*Hides the marker or trail if the player is not currently one of the specified professions.*
 
 | Attribute | Data Type | Example | Description |
 |-|-|-|-|

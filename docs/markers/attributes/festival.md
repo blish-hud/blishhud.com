@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 ## Description
 
-*Hides the marker if the specified festival is not active.*
+*Hides the marker or trail if one of the specified festivals is not active.*
 
 | Attribute | Data Type | Example | Description |
 |-|-|-|-|
