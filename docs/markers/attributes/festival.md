@@ -35,9 +35,3 @@ This attribute supports providing an array of festivals (values separated by com
 Explicit implementation details on how we determine the active festival can be found here in the Blish HUD [FestivalContext](https://github.com/blish-hud/Blish-HUD/blob/dev/Blish%20HUD/GameServices/Contexts/FestivalContext.cs).
 
 This state is detected when Blish HUD is launched.
-
-:::caution
-
-On at least once occurance (Dragon Bash 2021), the web API has not properly reflected all active dailies resulting in festivals going undetected by Blish HUD.  This filter can be manually overriden by disabling the option within settings which allows markers to hide themselves.
-
-:::
