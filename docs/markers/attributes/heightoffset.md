@@ -12,6 +12,6 @@ hide_table_of_contents: true
 
 *Renders the marker the specified amount higher than the actual position.*
 
-| Attribute | Data Type | Example | Description |
-|-|-|-|-|
-| heightoffset | [float](../datatypes/float) | `heightoffset="27.3"` | The amount the marker should be rendered offset, vertically. |
+| Attribute | Data Type | Example | Default Value | Description |
+|-|-|-|-|-|
+| heightoffset | [float](../datatypes/float) | `heightoffset="27.3"` | 1.5 | The amount the marker should be rendered offset, vertically. |

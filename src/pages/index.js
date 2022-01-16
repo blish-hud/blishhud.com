@@ -125,8 +125,8 @@ function Home() {
                 'button button--outline button--secondary button--lg link--download',
                 styles.getStarted,
               )}
-              to='https://github.com/blish-hud/Blish-HUD/releases/download/v0.11.0/Blish.HUD.0.11.0.zip'>
-                Download v0.11.0
+              to='https://github.com/blish-hud/Blish-HUD/releases/download/v0.11.2/Blish.HUD.0.11.2.zip'>
+                Download v0.11.2
             </Link>&nbsp;
             <Link
               className={clsx(
@@ -141,8 +141,8 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/user/faq')}>
-              FAQ
+              to={useBaseUrl('/docs/user/troubleshooting')}>
+              Troubleshooting
             </Link>
           </div>
           <br />

@@ -12,15 +12,13 @@ hide_table_of_contents: true
 
 *By default markers and trails are rendered without culling meaning that both sides are rendered at all times.  Alternative culling settings allow you to enable culling for one side or the other.  For example, a trail can be made to be visible when viewed from below.*
 
-| Attribute | Data Type | Example | Description |
-|-|-|-|-|
-| cull | Custom String | `cull="Clockwise"` | The direction that culling should occur. |
-
-The default value is `None`.
+| Attribute | Data Type | Example | Default Value | Description |
+|-|-|-|-|-|
+| cull | Custom String | `cull="Clockwise"` | None | The direction that culling should occur. |
 
 ## Supported values
 
-- None (Default)
+- None
 - Clockwise
 - CounterClockwise
 

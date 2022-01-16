@@ -51,8 +51,10 @@
       "markers/overview/pathingtroubleshooting",
       "markers/overview/packformats"
     ],
+    "Marker Pack Development": [
+      "markers/development/attributes"
+    ],
     "Attributes": [
-      "markers/attributes/attributes",
       "markers/attributes/achievement",
       "markers/attributes/alpha",
       "markers/attributes/animspeed",
@@ -85,6 +87,7 @@
       "markers/attributes/resetlength",
       "markers/attributes/rotate",
       "markers/attributes/scaleonmapwithzoom",
+      "markers/attributes/schedule",
       "markers/attributes/showhide",
       "markers/attributes/size",
       "markers/attributes/specialization",

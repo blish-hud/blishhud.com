@@ -36,6 +36,18 @@ const moduleShowcase = [
   }
 ];
 
+const tinyShowcase = [
+  {
+    title: <>Compass</>,
+    imageUrl: 'img/1615829.png',
+    description: (
+      <>
+        A compass that shows the direction you're facing.
+      </>
+    )
+  }
+];
+
 const features = [
   {
     title: <>Focus on Features</>,
