@@ -37,8 +37,7 @@ Blish HUD supports most TacO format marker packs.  Here are some of our popular 
 | Achievement hunting? | [ReActif EN](https://www.heinze.fr/taco/download.php?f=3) / [FR](https://www.heinze.fr/taco/download.php?f=6) | [Website](https://www.heinze.fr/taco/?lang=en) | [Stats](https://mp-repo.blishhud.com/reactif.en.taco.html)
 | Want the scenic route and to explore as you level up? | [Movement on the World](https://github.com/Sutcenes/MovementOnTheWorld_TacoSupport/releases/latest/download/MoW.taco) | [Website](https://github.com/Sutcenes/MovementOnTheWorld_TacoSupport/wiki) | [Stats](https://mp-repo.blishhud.com/MoW.taco.html) |
 | Fractals / Raids / Strikes? | [Hero's Marker Pack](https://github.com/QuitarHero/Heros-Marker-Pack/releases/latest/download/Hero.Blish.Pack.zip) | [Website](https://github.com/QuitarHero/Heros-Marker-Pack/wiki) | [Stats](https://mp-repo.blishhud.com/hero.blish.pack.zip.html) |
-| Looking for more gifts of exploration / map completion? | [Teh's Map Completion Trails](https://github.com/xrandox/TehsTrails/releases/latest/download/tt.mapcomp.taco) | [Website](https://github.com/xrandox/TehsTrails/wiki) | [Stats](https://mp-repo.blishhud.com/tt.mapcomp.taco.html) |
-| Looking for HPs or wanting to run your own HP trains? | [Teh's HP Train Trails](https://github.com/xrandox/TehsTrails/releases/latest/download/tt.hptraintrails.taco) | [Website](https://github.com/xrandox/TehsTrails/wiki) | [Stats](https://mp-repo.blishhud.com/tt.hptraintrails.taco.html) |
+| Looking for more gifts of exploration / map completion or assistance with HP trains? | [Teh's Trails](https://github.com/xrandox/TehsTrails/releases/latest/download/TehsTrails.taco) | [Website](https://github.com/xrandox/TehsTrails/wiki) | [Stats](https://mp-repo.blishhud.com/TehsTrails.taco.html) |
 
 ℹ *Have a pack you'd like to see recommended?  Shoot a ping to @Freesnöw:0001 on Discord!*
 
