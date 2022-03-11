@@ -63,6 +63,12 @@ Some settings, in context, need to be limited in some way when displayed in the 
 
 Settings that are automatically rendered can have their associated control disabled in the UI using `SetDisabled(true);`.
 
+#### SetValidation
+
+Allows you to have a function validate new values assigned via the UI before they're actually applied to the setting.  If the validation function returns false on the validation, then the new value is discarded and the previous state is restored and the setting is left unchanged.
+
+A message can also be included if the value is invalid which, while not currently implemented, will be displayed next to the setting to indicate the issue with the value that made it invalid.
+
 #### SetIncluded / SetExcluded
 
 Allows you to limit the list of enums made available to a setting using `SetIncluded(Enum1.Value1, Enum1.Value2, ...);`.

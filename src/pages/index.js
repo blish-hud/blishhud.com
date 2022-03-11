@@ -87,7 +87,7 @@ const features = [
     imageUrl: 'img/1769865.png',
     description: (
       <>
-        Join our <a target="_blank" href="https://discord.gg/HzAV82d">Discord channel</a> (more than 2,600 users!), contribute to Blish HUD development, get help in developing your modules, and showcase your work to other Blish HUD users.
+        Join our <a target="_blank" href="https://discord.gg/HzAV82d">Discord channel</a> (more than 3,200 users!), contribute to Blish HUD development, get help in developing your modules, and showcase your work to other Blish HUD users.
       </>
     ),
   },
@@ -125,8 +125,8 @@ function Home() {
                 'button button--outline button--secondary button--lg link--download',
                 styles.getStarted,
               )}
-              to='https://github.com/blish-hud/Blish-HUD/releases/download/v0.11.4/Blish.HUD.0.11.4.zip'>
-                Download v0.11.4
+              to='https://github.com/blish-hud/Blish-HUD/releases/download/v0.11.7/Blish.HUD.0.11.7.zip'>
+                Download v0.11.7
             </Link>&nbsp;
             <Link
               className={clsx(

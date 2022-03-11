@@ -11,7 +11,8 @@
     ],
     "Troubleshooting": [
       "user/troubleshooting",
-      "user/troubleshooting/recording"
+      "user/troubleshooting/recording",
+      "user/troubleshooting/error-module"
     ]
   },
   "dev-sidebar": {
@@ -24,6 +25,11 @@
       "modules/overview/debugging",
       "modules/overview/bhm",
       "modules/overview/release"
+    ],
+    "\"Module Citizen\"": [
+      "modules/module-citizen/overview",
+      "modules/module-citizen/friendly-ui-ux",
+      "modules/module-citizen/ensuring-stability"
     ],
     "Controls": [
       "dev/controls/overview",

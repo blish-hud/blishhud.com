@@ -27,10 +27,13 @@ This is usually due to post-processing effects being applied to Blish HUD by you
 
 Restarting Blish HUD should remove the black background and allow it to be transparent on top of the game like it is intended.
 
+*If using an AMD card, please check the graphics panel and ensure no post processing effects such as sharpening are being applied.*
+
 #### **Possible Solution 2**
 
 - Ensure you have transparency effects turned on in your Windows settings.
 - Ensure you have the latest version of your graphics card drivers installed.
+- Ensure you don't have other overlays such as the Discord overlay enabled.
 
 ### 2. Dragging windows creates a trail behind them
 
@@ -106,3 +109,17 @@ If the above steps do not resolve the issue, you can try utilizing [portable mod
 When using the DirectX 11 vesrion of ArcDPS (d3d11.dll), if it is in the same directory as Blish HUD, it will attempt to inject into Blish HUD.  ArcDPS expects to be injected into Guild Wars 2, so it will cause Blish HUD to crash almost immediately upon launch.
 
 To resolve this, please ensure that Blish HUD is placed in a different folder — not one where there is a d3d11.dll file in the same directory.
+
+### 10. Blish HUD crashes when it is launched and no logs are written
+
+When features such as [Window's Ransomware protection](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/controlled-folders?view=o365-worldwide) are enabled (typically called Controlled Folder Access), it can block us from writing to our settings directory and cause Blish HUD to crash.  Since we can't access the settings directory, we also can't write a log file to tell you why we crashed.
+
+The best way to check if this is causing the issue is to open "Controlled Folder Access" by searching for it in the Windows Start Menu.
+
+<img src="/img/troubleshooting/cfa1.png" />
+
+If the Controlled folder access toggle shows "On" as it does in the screenshot above, you will need to explicitly give access to Blish HUD.  You can do this by selecting "Allow an app through Controlled folder access" and selecting the `Blish HUD.exe` when prompted.
+
+If this toggle shows "Off" or if Blish HUD still crashes, check to ensure you don't have an anti-virus enabled as described in troubleshooting item 8: [Settings are not saved](/docs/user/troubleshooting#8-settings-are-not-saved).
+
+Finally, if you are still experiencing issues, you can try to enable [portable mode](/docs/user/portable-mode) which will save the settings in the current folder which is less likely to be blocked.
