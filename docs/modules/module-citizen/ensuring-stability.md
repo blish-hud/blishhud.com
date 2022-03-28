@@ -31,7 +31,7 @@ In any of these scenarios where an external resource is referenced please ensure
 :::caution To preface
 We do not attempt to circumvent anti-virus or other security software.  Instead, we work to try to identify when it impedes us and notify the user so that they can address it themselves.
 
-We will also submit our compiled assemblies to Anti-Virus vendors for review and approval when there are repeat issues from the same vendor so that they can manually approve it.
+We will also submit our compiled assemblies to Anti-Virus vendors for review and for approval when there are repeat issues from the same vendor so that they can manually approve it.
 :::
 
 Sometimes users have an anti-virus that, despite our best efforts to sign and submit our releases for review, will get blocked.  These days many anti-virus platforms block *behaviors* instead of the applications themselves.  Common examples are:

@@ -29,7 +29,8 @@
     "\"Module Citizen\"": [
       "modules/module-citizen/overview",
       "modules/module-citizen/friendly-ui-ux",
-      "modules/module-citizen/ensuring-stability"
+      "modules/module-citizen/ensuring-stability",
+      "modules/module-citizen/repo-etiquette"
     ],
     "Controls": [
       "dev/controls/overview",
@@ -46,7 +47,10 @@
       "dev/controls/textbox"
     ],
     "Getting Started": [],
-    "Guides": ["modules/guides/settings"],
+    "Guides": [
+      "modules/guides/settings",
+      "modules/guides/gw2api"
+    ],
     "Advanced Guides": [],
     "API Reference": []
   },
