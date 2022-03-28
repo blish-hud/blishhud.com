@@ -11,7 +11,7 @@ The public package repo is a manifest listing of every public module available t
 
 ## Maintain Your Namespace
 
-If a module has ever been published to the module repo, you **may not** change your module namespace inside the manifest.json file.  The namespace is used as an unique identifier to track your module installed in user environments, for settings, for module updates, and more.  PRs including namespace changes will be declined as it creates a confusing experience for our users.
+If a module has ever been published to the module repo, you **may not** change your module namespace inside the manifest.json file.  The namespace is used as a unique identifier to track your module installed in user environments, for settings, for module updates, and more.  PRs including namespace changes will be declined as it creates a confusing experience for our users.
 
 ## Maintain Your Releases
 
