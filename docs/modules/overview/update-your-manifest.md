@@ -32,7 +32,7 @@ The version of the package.  Should be [Semanticly Versioned](https://semver.org
 ```
 
 #### Namespace
-This is the primary identifier - it is a unique name for the package.  Do not change this value once your package has been published.  It is used internally within Blish HUD for Settings and more.  Modules should not be within the `bh` namespace unless they have been contributed and approved to the base community packages.
+This is the primary identifier - it is a unique name for the package.  Do not change this value once your package has been published.  It is used internally within Blish HUD for Settings and more.  Modules should not be within the `bh` namespace unless they have been contributed and approved to the base community packages. The manifest.json namespace and the c# namespace you use in your .cs files are not related. They can be the same, but do not have to be. 
 
 ```json
 {
