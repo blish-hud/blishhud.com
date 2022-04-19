@@ -14,8 +14,10 @@ Blish HUD module projects can be created from scratch or by using the above modu
 
 1. Install the latest Visual Studio module template found under [Releases](https://github.com/blish-hud/Module-Template/releases).
 2. Create a new project in Visual Studio using the template.
-   - *Note: When doing this, you **must** select "Place solution and project in the same directory" while on the "Configure your new project" step of the project wizard.*
-2. Run `nuget restore` in the Package Manager Console to ensure all NuGet packages are restored.
+   - *Note: On the "Configure your new project" step of the project wizard, make sure to enter the desired project name.*
+   - *Note: On the "Configure your new project" step of the project wizard, you **must** select "Place solution and project in the same directory".*
+3. When you open the Package Manager Console, you should get a prompt saying "Some NuGet packages are missing from this solution. Click to restore from your online package sources." Click the restore button to download the NuGet packages.
+4. Now run "Update-Package" in the Package Manager Console to update all NuGet packages to the latest versions.
 
 :::info
 
