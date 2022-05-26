@@ -8,6 +8,9 @@ module.exports = {
   projectName: 'Blish-HUD',
   plugins: [['@docusaurus/plugin-google-analytics', {id:'ga'}]],
   themeConfig: {
+    prism: {
+      additionalLanguages: ['csharp'],
+    },
     navbar: {
       title: 'Blish HUD',
       logo: {
