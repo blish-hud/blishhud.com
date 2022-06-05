@@ -81,6 +81,7 @@ module.exports = {
       // Optional fields.
       // anonymizeIP: true, // Should IPs be anonymized?
     },
+    metadata: [{name: 'keywords', content: 'Guild Wars 2, gw2, Blish, HUD, bhud, TacO, Overlay'}]
   },
   presets: [
     [

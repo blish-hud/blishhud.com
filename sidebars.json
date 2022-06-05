@@ -23,6 +23,7 @@
       "modules/overview/getting-started",
       "modules/overview/update-your-manifest",
       "modules/overview/debugging",
+      "modules/overview/anatomy",
       "modules/overview/bhm",
       "modules/overview/release"
     ],
@@ -49,7 +50,8 @@
     "Getting Started": [],
     "Guides": [
       "modules/guides/settings",
-      "modules/guides/gw2api"
+      "modules/guides/gw2api",
+      "modules/guides/graphicsdevice"
     ],
     "Advanced Guides": [],
     "API Reference": []
@@ -58,7 +60,6 @@
     "Pathing Module": [
       "markers",
       "markers/overview/managingmarkers",
-      "markers/overview/pathingtroubleshooting",
       "markers/overview/packformats"
     ],
     "Marker Pack Development": [

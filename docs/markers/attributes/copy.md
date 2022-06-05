@@ -6,7 +6,13 @@ hide_table_of_contents: true
 
 | Applies To | | Blish HUD | TacO |
 |-|-|-|-|
-| <center>Markers</center> | | <center>✔</center> | <center>❌</center> |
+| <center>Categories, Markers</center> | | <center>✔</center> | <center>⚠️</center> |
+
+:::info
+
+TacO does not support the copy attribute on category separators like Blish HUD does.
+
+:::
 
 ## Description
 
@@ -20,6 +26,8 @@ hide_table_of_contents: true
 ## Triggering a copy
 
 When interacted with (typically the F key), a marker with the `copy` attribute will activate.  Certain other attributes (shown below) can modify the default activation behavior.
+
+When applied to a [separator category](isseparator), clicking on the separator will activate the copy and display the copy message.
 
 #### [triggerrange](triggerrange)
 

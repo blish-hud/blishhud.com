@@ -33,7 +33,7 @@ The Guild Wars 2 API has on more than one occasion experienced periods of both p
 
 Consider implementing a retry mechanism that tries a few minutes later.  If the information is critical for the functionality of your module, it is best to notify the user so that they understand why the module is not functioning as expected.
 
-See our guide on [handling exceptions](http://localhost:3000/docs/modules/module-citizen/ensuring-stability#handle-exceptions-when-working-with-external-resources).
+See our guide on [handling exceptions](/docs/modules/module-citizen/ensuring-stability#handle-exceptions-when-working-with-external-resources).
 
 ## Making Requests
 
@@ -61,7 +61,7 @@ Before every request, check that the appropriate permissions are available with 
 
 ```cpp {3}
 try {
-	// v2/account/achivements requires "account" and "progression" permissions.
+	// v2/account/achievements requires "account" and "progression" permissions.
 	if (Gw2ApiManager.HasPermissions(new[] { TokenPermission.Account, TokenPermission.Progression })) {
 		Logger.Debug("Getting user achievements from the API.");
 

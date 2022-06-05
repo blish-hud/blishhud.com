@@ -21,7 +21,6 @@ If you need assistance or would like to provide suggestions for future attribute
 | Applies To | Attribute | Summary |
 |-|-|-|
 | Trails | [IsWall](/docs/markers/attributes/iswall) | *When enabled, a trail will be rendered on its edge like a boundary.* | 
-| Markers, Trails | [Festival](/docs/markers/attributes/festival) | *Hides the marker or trail if one of the specified festivals is not active.* | 
 | Markers, Trails | [Mount](/docs/markers/attributes/mount) | *Hides the marker if the player is not currently riding one of the specified mounts.* | 
 | Markers, Trails | [Profession](/docs/markers/attributes/profession) | *Hides the marker or trail if the player is not currently one of the specified professions.* | 
 | Markers, Trails | [Race](/docs/markers/attributes/race) | *Hides the marker or trail if the player is not currently one of the specified races.* | 
@@ -32,7 +31,6 @@ If you need assistance or would like to provide suggestions for future attribute
 | Markers | [InvertBehavior](/docs/markers/attributes/invertbehavior) | *If enabled, the behavior attribute's effect is inverted.* | 
 | Markers | [Rotate](/docs/markers/attributes/rotate) | *Allows you to statically rotate a marker instead of it automatically facing the player.* |
 | Markers | [Bounce](/docs/markers/attributes/bounce) | *Allows a marker to "bounce" when triggered.* | 
-| Markers | [Copy](/docs/markers/attributes/copy) | *Allows you to set a value to the users clipboard.* | 
 | Markers | [Show / Hide](/docs/markers/attributes/showhide) | *Allows showing or hiding a specified category when triggered.* |  
 | Markers | [Toggle](/docs/markers/attributes/toggle) | *Toggles a category on or off when triggered. Similar in behavior to the Show & Hide attributes.* | 
 | Markers, Categories | [Tip](/docs/markers/attributes/tip) | *Allows you to display a tooltip on markers on the minimap or categories in the category dropdown.* | 

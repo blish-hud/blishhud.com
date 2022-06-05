@@ -10,7 +10,7 @@ Blish HUD's Pathing module comes with a number of improvements to better help yo
 Just like with TacO, left clicking the Pathing module icon will give you the option to toggle your marker categories on and off.  To reduce the clutter and to help you see only what's relevant: **Blish HUD's Pathing module hide's categories that are irrelevant to your current map**.  When you switch maps, the list of available categories will update as well.
 
 If for some reason you would like to see all categories, this feature can be toggled on and off:<br />
-**Pathing Module Settings > Show Categories From All Maps**.
+**Pathing Module Settings > Enable Smart Categories**.
 
 <img src="/img/pathing/overview/simplified-menus.png" />
 <br /><br />

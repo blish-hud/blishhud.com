@@ -22,7 +22,7 @@ hide_table_of_contents: true
 
 The value is checked against the active third slot specialization ID.  It is not limited to elite specializations but we are unable to detect the first two specializations.  This is a quirk of it's implementation in the mumblelink API.
 
-For your convenience, we've bolded and the elite specializations in the below table and moved them to the top.  The remaining non-elite specializations can be detected *if* applied in the third specialization slot.
+For your convenience, we've bolded the elite specializations in the below table and moved them to the top.  The remaining non-elite specializations can be detected *if* applied in the third specialization slot.
 
 :::
 
@@ -46,6 +46,15 @@ For your convenience, we've bolded and the elite specializations in the below ta
 | <strong>61</strong> | <strong>Spellbreaker</strong> | <strong>Warrior</strong> |
 | <strong>62</strong> | <strong>Firebrand</strong> | <strong>Guardian</strong> |
 | <strong>63</strong> | <strong>Renegade</strong> | <strong>Revenant</strong> |
+| <strong>64</strong> | <strong>Harbinger</strong> | <strong>Necromancer</strong> |
+| <strong>65</strong> | <strong>Willbender</strong> | <strong>Guardian</strong> |
+| <strong>66</strong> | <strong>Virtuoso</strong> | <strong>Mesmer</strong> |
+| <strong>67</strong> | <strong>Catalyst</strong> | <strong>Elementalist</strong> |
+| <strong>68</strong> | <strong>Bladesworn</strong> | <strong>Warrior</strong> |
+| <strong>69</strong> | <strong>Vindicator</strong> | <strong>Revenant</strong> |
+| <strong>70</strong> | <strong>Mechanist</strong> | <strong>Engineer</strong> |
+| <strong>71</strong> | <strong>Specter</strong> | <strong>Thief</strong> |
+| <strong>72</strong> | <strong>Untamed</strong> | <strong>Ranger</strong> |
 | 1 | Dueling | Mesmer |
 | 2 | Death Magic | Necromancer |
 | 3 | Invocation | Revenant |

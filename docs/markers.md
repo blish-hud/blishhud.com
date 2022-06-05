@@ -26,9 +26,15 @@ If enabled, the Pathing module will auto detect what achievements you've complet
 
 **Don't extract the marker packs!**  They're intended to be left inside of their `.zip` or `.taco` archives.  If you extract them, Blish HUD can have difficulties loading your marker textures and trails.
 
-Likewise, packs which come as XML files typically will not work with Blish HUD - many of them rely on resources and resource management built into TacO that we do not have plans to support at this time.
+Likewise, packs which come as XML files may not work with Blish HUD as expected - many of them rely on resources and resource management built into TacO that we do not have plans to support at this time.  Reach out to us on Discord for assistance with repacking packs like this.
 
 :::
+
+### From Repo
+
+Within Blish HUD is now a marker pack repo.  Popular marker packs can be downloaded from the repo and kept automatically up to date.
+
+### Manually
 
 Blish HUD supports most TacO format marker packs.  Here are some of our popular recommendations:
 
