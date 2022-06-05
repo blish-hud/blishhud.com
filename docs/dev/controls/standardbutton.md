@@ -18,7 +18,7 @@ This example shows how to use the `StandardButton` control.
 ```cs
 var exampleButton = new StandardButton()
 {
-      Text = "Click Me!",
+      Text = "I'm a Button",
       Size = new Point(110, 30),
       Location = new Point(0, 0),
       Parent = parentPanel,

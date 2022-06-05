@@ -27,7 +27,7 @@ In this example, we've used window background [asset 155985](https://assets.gw2d
 
 ```cs
 var exampleWindow = new StandardWindow(
-      Content.GetTexture("controls/window/155985"), // The background texture of the window.
+      ContentsManager.GetTexture("controls/window/155985"), // The background texture of the window.
       new Rectangle(40, 26, 913, 691),              // The windowRegion
       new Rectangle(70, 71, 839, 605)               // The contentRegion
 );
@@ -38,10 +38,11 @@ var exampleWindow = new StandardWindow(
 ## Usage Example
 
 ```cs
-var exampleWindow = new StandardWindow(Content.GetTexture("controls/window/155985"), new Rectangle(40, 26, 913, 691), new Rectangle(70, 71, 839, 605)) {
-      Parent        = Graphics.SpriteScreen,
+var exampleWindow = new StandardWindow(ContentsManager.GetTexture("controls/window/155985"), new Rectangle(40, 26, 913, 691), new Rectangle(70, 71, 839, 605))
+{
+      Parent        = GameService.Graphics.SpriteScreen,
       Title         = "StandardWindow",
-      Emblem        = Content.GetTexture("controls/window/156022"),
+      Emblem        = ContentsManager.GetTexture("controls/window/156022"),
       Subtitle      = "Example Subtitle",
       SavesPosition = true,
       Id            = $"{nameof(ExampleClass)}_ExampleModule_38d37290-b5f9-447d-97ea-45b0b50e5f56"

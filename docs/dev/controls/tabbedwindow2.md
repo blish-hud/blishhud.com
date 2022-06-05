@@ -33,7 +33,7 @@ In this example, we've used window background [asset 155997](https://assets.gw2d
 
 ```cs
 var exampleWindow = new TabbedWindow2(
-      Content.GetTexture("controls/window/155997"), // The background texture of the window.
+      ContentsManager.GetTexture("controls/window/155997"), // The background texture of the window.
       new Rectangle(24, 30, 545, 630),              // The windowRegion
       new Rectangle(82, 30, 467, 600)               // The contentRegion
 );
@@ -50,17 +50,18 @@ When using a **TabbedWindow2**, a black sidebar (which has the tabs on it) will 
 ## Usage Example
 
 ```cs
-var exampleWindow = new TabbedWindow2(Content.GetTexture("controls/window/155985"), new Rectangle(24, 30, 545, 630), new Rectangle(82, 30, 467, 600)) {
-      Parent        = Graphics.SpriteScreen,
+var exampleWindow = new TabbedWindow2(ContentsManager.GetTexture("controls/window/155985"), new Rectangle(24, 30, 545, 630), new Rectangle(82, 30, 467, 600)) 
+{
+      Parent        = GameService.Graphics.SpriteScreen,
       Title         = "TabbedWindow",
-      Emblem        = Content.GetTexture("controls/window/156022"),
+      Emblem        = ContentsManager.GetTexture("controls/window/156022"),
       Subtitle      = "Example Subtitle",
       SavesPosition = true,
       Id            = $"{nameof(ExampleClass)}_ExampleModule_38d37290-b5f9-447d-97ea-45b0b50e5f56"
 };
 
-exampleWindow.Tabs.Add(new Tab(Content.GetTexture("155052"), () => new OverlaySettingsView(), "Settings"));
-exampleWindow.Tabs.Add(new Tab(Content.GetTexture("155052"), () => new AboutView(), "About Blish HUD"));
+exampleWindow.Tabs.Add(new Tab(ContentsManager.GetTexture("155052"), () => new OverlaySettingsView(), "Settings"));
+exampleWindow.Tabs.Add(new Tab(ContentsManager.GetTexture("155052"), () => new AboutView(), "About Blish HUD"));
 ```
 
 <img src="/img/docs/controls/window/liveBackgroundExample2.png" />

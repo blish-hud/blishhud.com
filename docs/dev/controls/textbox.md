@@ -1,9 +1,9 @@
 ---
 id: textbox
-title: Textbox
+title: TextBox
 ---
 
-The `Textbox` control provides the user with an inputfield to display or edit unformatted text.
+The `TextBox` control provides the user with an inputfield to display or edit unformatted text.
 
 *This documentation is a WIP and probably not exhaustive.*
 
@@ -11,12 +11,12 @@ The `Textbox` control provides the user with an inputfield to display or edit un
 
 ## Usage Example
 
-This example shows how to use the `Textbox` control and set a placeholder text.
+This example shows how to use the `TextBox` control and set a placeholder text.
 
 <img src="/img/docs/controls/textbox.png" />
 
 ```cs
-var exampleTextBox = new Textbox()
+var exampleTextBox = new TextBox()
 {
       PlaceholderText = "Enter name here ...",
       Size = new Point(358, 43),

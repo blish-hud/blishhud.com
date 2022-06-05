@@ -12,7 +12,8 @@ A `DetailsButton` is ideal when you wish to represent many items which may have 
 <img src="/img/docs/controls/detailsbutton-1.png" />
 
 ```cs
-var exampleDetailsButton = new DetailsButton() {
+var exampleDetailsButton = new DetailsButton() 
+{
       // ...
       Text             = "Storms of Winter",
       Icon             = GameService.Content.GetRenderServiceTexture("0AAD072E707AE02AE1B9984FD8BCE1A113E759B7/2221432"),

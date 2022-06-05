@@ -10,11 +10,13 @@ The `ColorPicker` control is meant to replicate the color selection controls fou
 <img src="/img/docs/controls/colorpicker-1.png" />
 
 ```cs
-var exampleColorBox = new ColorBox() {
+var exampleColorBox = new ColorBox()
+{
     // ...
 };
 
-var exampleColorPicker = new ColorPicker() {
+var exampleColorPicker = new ColorPicker()
+{
     // ...
     AssociatedColorBox = exampleColorBox
 };
@@ -33,7 +35,8 @@ colorBox3.Click += UpdateActiveColorBox;
 
 // ...
 
-private void UpdateActiveColorBox(object sender, MouseEventArgs e) {
+private void UpdateActiveColorBox(object sender, MouseEventArgs e) 
+{
     exampleColorPicker.AssociatedColorBox = (ColorBox) sender;
 }
 ```
@@ -49,7 +52,8 @@ var colors = await Gw2ApiManager.Gw2ApiClient.V2.Colors.AllAsync();
 And added to the picker:
 
 ```cs
-foreach (var color in colors) {
+foreach (var color in colors)
+{
     exampleColorPicker.Colors.Add(color);
 }
 ```
