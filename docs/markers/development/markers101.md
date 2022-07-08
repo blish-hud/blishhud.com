@@ -16,12 +16,14 @@ title: Make Your Own Markers (MYOM)
 ## Setting up for Success
 ### TacO settings
 ![image](https://user-images.githubusercontent.com/7094953/177874018-58e7eb40-f5fe-4cb2-a677-2afd02e6c797.png)  
-You can bind the categories to whatever you'd like, but I prefer keys that are used for nothing else.  
-I recommend AT LEAST 2 categories bound, the more the merrier.  
-I also generally toggle off any packs not related to what I'm working on in both TacO's "Filter Displayed Tactical Markers" and within Blish's Pathing Module.
+- You can bind the categories to whatever you'd like, but I prefer keys that are used for nothing else.  
+- I recommend AT LEAST 2 categories bound, the more the merrier.  
+- I also generally toggle off any packs not related to what I'm working on in both TacO's "Filter Displayed Tactical Markers" and within Blish's Pathing Module.
 ### Blish settings
 - Distance Rings Module
   - 1 ring enabled, 3250 distance, no vertical offset. Anything within this ring will show its label if it has one and the appropriate option in GW2 settings is toggled on. The label fade in STARTS at 3500, but it's fully or nearly-fully opaque by 3250. Set to your preference.
+- Pathing Module
+  - Hopefully self-explanatory
 ## GW2 settings
 ![image](https://user-images.githubusercontent.com/7094953/177874182-3f07c5b9-7a6f-4837-a44d-6a3b51d5766f.png)  
 ### "The Dashboard"
