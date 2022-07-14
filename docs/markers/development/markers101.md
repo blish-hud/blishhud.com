@@ -1,6 +1,6 @@
 ---
 id: markers101
-title: Make Your Own Markers (MYOM)
+title: Markers 101 (Make Your Own Markers)
 ---
 **All information here is an example of how the "Only Fish" pack was made, YMMV**
 
