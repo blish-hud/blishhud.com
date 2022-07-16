@@ -28,51 +28,16 @@ var exampleTextBox = new Textbox()
 
 ---
 
+## Parent Controls
+
+- <a href="/docs/dev/controls/control-control">Control</a>
+- <a href="/docs/dev/controls/control-textinputbase">TextInputBase</a>
+
+---
+
 ## Available Parameters and Arguments
 
-**Size**
-Type: *Point*
-Size of the control *(optional)*
-
-**Location**
-Type: *Point*
-Position of the control within parent panel
-
-**Parent**
-Type: *Panel*
-Parent Panel
-
-**Text**
-Type: *String*
-The text this control will show by default *(optional)*
-
-**PlaceholderText**
-Type: *String*
-A placeholder text when control is empty *(optional)*
-
-**Font**
-Type: *BitmapFont*
-The used font *(optional)*
-
-**ForeColor**
-Type: *Color*
-Color of the font *(optional)*
-
-**Focused**
-Type: *Bool*
-If the control should be focused by default *(optional)*
-
-**SelectionStart**
-Type: *Int*
-Start position if preselected text *(optional)*
-
-**SelectionEnd**
-Type: *Int*
-End position if preselected text *(optional)*
-
-**CursorIndex**
-Type: *Int*
-Position of the cursor *(optional)*
+see parent controls
 
 ---
 
@@ -80,14 +45,7 @@ Position of the cursor *(optional)*
 
 A list of `Methods` and `EventHandlers` to hook onto.
 
-**TextChanged**
-Call a method when the user typed text.
-
-**InputFocusChanged**
-Call a method when the user changes focus to the control.
-
-**CursorIndexChanged**
-Call a method when the user changes the position of the cursor.
+### EventHandler
 
 **EnterPressed**
 Call a method when the `Enter` key is pressed by the user.

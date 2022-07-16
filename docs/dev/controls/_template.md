@@ -31,6 +31,14 @@ If there are variations of the control available feel free to expand this sectio
 
 ---
 
+## Parent Controls
+
+Reference all inheritances here.
+
+- <a href="/docs/dev/controls/control-control">Control</a>
+
+---
+
 ## Available Parameters and Arguments
 
 Describe here what parameters are available for this `Control`.

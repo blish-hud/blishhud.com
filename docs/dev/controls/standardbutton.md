@@ -27,19 +27,14 @@ var exampleButton = new StandardButton()
 
 ---
 
+## Parent Controls
+
+- <a href="/docs/dev/controls/control-control">Control</a>
+- <a href="/docs/dev/controls/control-labelbase">LabelBase</a>
+
+---
+
 ## Available Parameters and Arguments
-
-**Size**
-Type: *Point*
-Size of the control *(optional)*
-
-**Location**
-Type: *Point*
-Position of the control within parent Panel
-
-**Parent**
-Type: *Panel*
-Parent panel
 
 **Text**
 Type: *String*
@@ -47,7 +42,11 @@ The text shown on the control.
 
 **Icon**
 Type: *Texture2D*
-An icon to show on the control. For best results, the Icon should be 16x16.  *(optional)*
+An icon to show on the control. For best results, the `Icon` should be 16x16.  *(optional)*
+
+**ResizeIcon**
+Type: *Bool*
+If true, the `Icon` texture will be resized to 16x16.
 
 ---
 
@@ -55,8 +54,7 @@ An icon to show on the control. For best results, the Icon should be 16x16.  *(o
 
 A list of `Methods` and `EventHandlers` to hook onto.
 
-**Click**
-Call a method on click.
+see parent controls
 
 ---
 
